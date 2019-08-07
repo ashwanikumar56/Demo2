@@ -39,7 +39,7 @@ public class TestBase
 		String browsername=prop.getProperty("browser");
 		if(browsername.equals("chrome"))
 		{
-			  System.setProperty("webdriver.chrome.driver", "/home/qainfotech/Downloads/chromedriver");  
+			  System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");  
 			    driver=new ChromeDriver();  
 		}
 		else if(browsername.equals("firebox"))
